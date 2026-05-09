@@ -1,0 +1,23 @@
+{
+  "name": "freebuff-photoshop",
+  "version": "0.1.0",
+  "description": "Web-based Photoshop clone - Freebuff",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^1.1.0",
+    "jsdom": "^23.0.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10",
+    "vitest": "^1.1.0"
+  },
+  "dependencies": {}
+}
